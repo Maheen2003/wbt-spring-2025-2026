@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(6, 10, 27, 1);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #4da6ff;
+}
+
+
+
+.name {
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
+
+.about-section p {
+    max-width: 500px;
+    /* Limits text width */
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 100px;
+    /* REMOVED flex: 1 */
+}
+
+.about-section img {
+    width: 250px;
+    height: auto;
+    margin-left: 200px;
+    /* THIS PUSHES THE IMAGE TO THE RIGHT */
+}

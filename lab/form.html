@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Lab assesment 4</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+
+    <div class="form-header">
+        <h1>Donor information</h1>
+    </div>
+    <div class="donor-info">
+        <form method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label><strong>First name</strong><span style="color: crimson;">*</span></label>
+                    </td>
+                    <td><input type="text" name="first_name" required></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Last name</strong><span style="color: crimson;">*</span> </label></td>
+                    <td><input type="text" name="last_name" required></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Company</strong></label>
+                    <td><input type="text"></td>
+                </tr>
+
+                </tr>
+
+                <tr>
+                    <td><label><strong>Address 1</strong><span style="color: crimson;">*</span></label></td>
+                    <td><input type="text" name="adress1" required></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Address 2</strong></label></td>
+                    <td><input type="text" name="adress2"></td>
+                </tr>
+                <tr>
+                    <td><label><strong>City</strong><span style="color: crimson;">*</span></label></td>
+                    <td><input type="text" name="city" required></td>
+                </tr>
+                <tr>
+                    <td><label><strong>State</strong><span style="color: crimson;">*</span></label></td>
+                    <td>
+                        <select name="state" required>
+                            <option>Dhaka</option>
+                            <option>Rangpur</option>
+
+                        </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label><strong>Zip Code</strong><span style="color: crimson;">*</span></label></td>
+                    <td><input type="text" name="zip" required></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Zip Code</strong><span style="color: crimson;">*</span></label></td>
+                    <td>
+                        <select name="country" required>
+                            <option>Bangladesh</option>
+                        </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label><strong>Phone</strong></label></td>
+                    <td><input type="number" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Fax</strong></label></td>
+                    <td><input type="number" name="fax"></td>
+
+                </tr>
+                <tr>
+                    <td><label><strong>Email</strong><span style="color: crimson;">*</span></label></td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Donation amount</strong><span style="color: crimson;">*</span></label></td>
+                    <td>
+                        <input type="radio" value="0">None
+                        <input type="radio" value="50">$50
+                        <input type="radio" value="75">$75
+                        <input type="radio" value="100">$100
+                        <input type="radio" value="250">$250
+                        <input type="radio">Other
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label>(Check a button or type in your amount)</label>
+                    </td>
+                    <td><label><strong>Other amount $</strong></label>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label><strong><strong>Recurring donation</strong></strong></label></td>
+                    <td><input type="checkbox" name="fax">I am interested in giving on a regular basis</td>
+
+                </tr>
+                <tr>
+                    <td><label>Check if yes</label></label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><label>Monthly credit card $</label><input type="text"><label>for</label><input type="text">
+                    </td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+
+
+</body>

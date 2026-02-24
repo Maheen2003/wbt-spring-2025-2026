@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Contact me form</title>
+</head>
+
+<body>
+    <nav>
+        <a>Home</a>
+        <a href="html/educations.html">Education</a>
+        <a href="html/experience.html">Experience</a>
+        <a href="html/projects.html">Projects</a>
+        <a href="html/contact.html">Contact</a>
+    </nav>
+    <h1>Contact me </h1>
+    <form method="post">
+        <fieldset>
+            <legend>Contact information </legend>
+            <!Gives the field a title>
+                <table>
+
+                    <tr>
+                        <!one row>
+                            <td><label for="first_name">First name:</label></td>
+                            <!column>
+                                <! when we click the label this ensure that the textbox is selected>
+
+                                    <td><input type="text" id="first_name" name="first_name" required></td>
+                                    <!id used for frontend stuff, name used in forms to pass data>
+
+                    </tr>
+                    <tr>
+                        <td><label for="last name">Last name:</label></td>
+                        <!one column for label>
+                            <td><input type="text" id="last name" name="last name" required></td>
+                            <!another one for textbox>
+                    </tr>
+
+                    <tr>
+                        <td><label>Gender:</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male
+                            <!Radio buttons with the same name are treated as one group.>
+
+                                <input type="radio" name="gender" value="female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="company">Company:</label></td>
+                        <td><input type="text" id="company" name="company"></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td><label>Reason of contact:</label></td>
+                        <td>
+                            <input type="checkbox" value="project"> Project
+                            <input type="checkbox" value="thesis"> Thesis
+                            <input type="checkbox" value="job"> Job
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="topic">Topics:</label></td>
+                        <td>
+                            <select id="topic" name="topic">
+                                <option>Web development</option>
+                                <option>Mobile development</option>
+                                <option>AI/ML development</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Consultation date:</label></td>
+                        <td><input type="text" id="date" name="date" required></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Register">
+                            <input type="reset">
+                        </td>
+                    </tr>
+
+
+
+
+                </table>
+
+        </fieldset>
+    </form>
+</body>
